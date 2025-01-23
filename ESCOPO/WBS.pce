@@ -1,0 +1,2189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<proj ListSeperator="," DefaultDurationUnits="days" DefaultWorkUnits="hours" HoursPerDay="8" HoursPerWeek="40" DaysPerMonth="21.75" DefaultStartTime="08:00" DefaultFinishTime="17:00" NADate="">
+		<calendar>
+			<normalhours s1="08:00" f1="12:00" s2="13:00" f2="17:00"/>
+			<dow day="sun" working="no"/>
+			<dow day="mon" working="yes"/>
+			<dow day="tue" working="yes"/>
+			<dow day="wed" working="yes"/>
+			<dow day="thu" working="yes"/>
+			<dow day="fri" working="yes"/>
+			<dow day="sat" working="no"/>
+		</calendar>
+		<currency symbol="$" digits="2" positiveOrder="0" negativeOrder="0"/>
+		<summary ScheduleFromStart="yes" CalculateCostProgress="no" MultipleCriticalPaths="yes" CriticalSlack="0d" Name="WBS" Title="WBS" Work="8h" Duration="133d" ActualDuration="26.6d" PercentComplete="20%" Start="2014-02-04T08:00" Finish="2014-10-02T17:00" ActualStart="2014-04-01T08:00"/>
+		<resources>
+			<resource id="1" uid="1" name="Analista RH Pl" initials="ARP"/>
+			<resource id="3" uid="2" name="Analista TI Pl 1" initials="ATP1"/>
+			<resource id="4" uid="3" name="Analista TI Pl 2" initials="ATP2"/>
+			<resource id="5" uid="4" name="Analista TI Jr 1" initials="ATJ1"/>
+			<resource id="6" uid="5" name="Analista TI Jr 2" initials="ATJ2"/>
+			<resource id="7" uid="7" name="Advogado Pl" initials="AP"/>
+			<resource id="8" uid="8" name="Gerentes de Projetos" initials="GP"/>
+			<resource id="2" uid="6" name="Analista TI Sr" initials="ATS"/>
+		</resources>
+		<tasks>
+			<task ID="0" UniqueID="0" OutlineLevel="0" PercentComplete="20%" Name="WBS" Work="8h" RemainingWork="8h" FreeSlack="-10d" TotalSlack="-10d" ActualDuration="26.6d" Duration="133d" RemainingDuration="106.4d" Start="2014-04-01T08:00" Finish="2014-10-02T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-10-02T17:00" LateStart="2014-03-18T08:00" LateFinish="2014-10-02T17:00" ActualStart="2014-04-01T08:00" Critical="yes"/>
+			<task ID="1" UniqueID="1" OutlineLevel="1" PercentComplete="20%" Name="Projeto Controle de Jornada dos Motoristas" Work="8h" RemainingWork="8h" FreeSlack="-10d" TotalSlack="-10d" ActualDuration="26.6d" Duration="133d" RemainingDuration="106.4d" Start="2014-04-01T08:00" Finish="2014-10-02T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-10-02T17:00" LateStart="2014-03-18T08:00" LateFinish="2014-10-02T17:00" ActualStart="2014-04-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="2" UniqueID="2" OutlineLevel="2" Name="GERENCIAMENTO DO PROJETO" Duration="1d" RemainingDuration="1d" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="3" UniqueID="25" OutlineLevel="3" Name="GERENCIAMENTO DO ESCOPO" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="4" UniqueID="29" OutlineLevel="3" Name="GERENCIAMENTO DO TEMPO" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="5" UniqueID="30" OutlineLevel="3" Name="GERENCIAMENTO DO CUSTO" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="6" UniqueID="31" OutlineLevel="3" Name="GERENCIAMENTO DE PESSOAS" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="7" UniqueID="32" OutlineLevel="3" Name="GERENCIAMENTO DE RISCOS" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="8" UniqueID="33" OutlineLevel="3" Name="GERENCIAMENTO DE AQUISI&#199;&#213;ES" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="9" UniqueID="34" OutlineLevel="3" Name="GERENCIAMENTO DE QUALIDADE" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="10" UniqueID="35" OutlineLevel="3" Name="GERENCIAMENTO DE COMUNICA&#199;&#213;ES" Duration="1d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="11" UniqueID="26" OutlineLevel="2" PercentComplete="100%" Name="RECURSOS HUMANOS" Work="8h" RemainingWork="8h" ActualDuration="15d" Duration="15d" Start="2014-04-01T08:00" Finish="2014-04-21T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-21T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-21T17:00" ActualStart="2014-04-01T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="12" UniqueID="27" OutlineLevel="3" PercentComplete="100%" Name="RECURSOS PR&#211;PRIOS" Work="8h" RemainingWork="8h" ActualDuration="8d" Duration="8d" Start="2014-04-01T08:00" Finish="2014-04-10T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-10T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-10T17:00" ActualStart="2014-04-01T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="13" UniqueID="40" OutlineLevel="4" PercentComplete="100%" Name="Avaliar demanda para contrata&#231;&#227;o de recursos pr&#243;prios" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="134" ActualDuration="2d" Duration="2d" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-02T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-02T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-02T17:00" ActualStart="2014-04-01T08:00" ActualFinish="2014-04-02T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="14" UniqueID="43" OutlineLevel="4" PercentComplete="100%" Name="Recrutar equipe pr&#243;pria" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="40" ActualDuration="2d" Duration="2d" ConstraintDate="2014-02-08T17:00" Start="2014-04-03T08:00" Finish="2014-04-04T17:00" EarlyStart="2014-04-03T08:00" EarlyFinish="2014-04-04T17:00" LateStart="2014-04-03T08:00" LateFinish="2014-04-04T17:00" ActualStart="2014-04-03T08:00" ActualFinish="2014-04-04T17:00" EffortDriven="yes" ConstraintType="Finish No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="15" UniqueID="44" OutlineLevel="4" PercentComplete="100%" Name="Selecionar equipe pr&#243;pria" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="43" ActualDuration="2d" Duration="2d" ConstraintDate="2014-02-08T08:00" Start="2014-04-05T08:00" Finish="2014-04-08T17:00" EarlyStart="2014-04-05T08:00" EarlyFinish="2014-04-08T17:00" LateStart="2014-04-07T08:00" LateFinish="2014-04-08T17:00" ActualStart="2014-04-05T08:00" ActualFinish="2014-04-08T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="16" UniqueID="45" OutlineLevel="4" PercentComplete="100%" Name="Contratar equipe pr&#243;pria" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="44" ActualDuration="1d" Duration="1d" ConstraintDate="2014-02-12T08:00" Start="2014-04-09T08:00" Finish="2014-04-09T17:00" EarlyStart="2014-04-09T08:00" EarlyFinish="2014-04-09T17:00" LateStart="2014-04-09T08:00" LateFinish="2014-04-09T17:00" ActualStart="2014-04-09T08:00" ActualFinish="2014-04-09T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="17" UniqueID="46" OutlineLevel="4" PercentComplete="100%" Name="Delegar atividades dos membros da equipe" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="45" ActualDuration="1d" Duration="1d" Start="2014-04-10T08:00" Finish="2014-04-10T17:00" EarlyStart="2014-04-10T08:00" EarlyFinish="2014-04-10T17:00" LateStart="2014-04-10T08:00" LateFinish="2014-04-10T17:00" ActualStart="2014-04-10T08:00" ActualFinish="2014-04-10T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="18" UniqueID="134" OutlineLevel="4" Name="IN&#205;CIO" Work="8h" RemainingWork="8h" ConstraintDate="2014-04-01T08:00" Start="2014-04-01T08:00" Finish="2014-04-01T08:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-01T08:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T08:00" Critical="yes" Milestone="yes" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="19" UniqueID="28" OutlineLevel="3" PercentComplete="100%" Name="RECURSOS TERCEIROS" ActualDuration="15d" Duration="15d" Start="2014-04-01T08:00" Finish="2014-04-21T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-21T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-21T17:00" ActualStart="2014-04-01T08:00" ActualFinish="2014-04-21T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="20" UniqueID="47" OutlineLevel="4" PercentComplete="100%" Name="Avaliar demanda para contrata&#231;&#227;o de recursos terceirizados" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="134" ActualDuration="2d" Duration="2d" ConstraintDate="2014-02-03T08:00" Start="2014-04-01T08:00" Finish="2014-04-02T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-02T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-02T17:00" ActualStart="2014-04-01T08:00" ActualFinish="2014-04-02T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="21" UniqueID="49" OutlineLevel="4" PercentComplete="100%" Name="Recrutar equipe terceirizada" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="47FS+1d" TotalSlack="2d" ActualDuration="3d" Duration="3d" ConstraintDate="2014-02-06T08:00" Start="2014-04-03T08:00" Finish="2014-04-07T17:00" EarlyStart="2014-04-03T08:00" EarlyFinish="2014-04-07T17:00" LateStart="2014-04-07T08:00" LateFinish="2014-04-09T17:00" ActualStart="2014-04-03T08:00" ActualFinish="2014-04-09T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="22" UniqueID="50" OutlineLevel="4" PercentComplete="100%" Name="Selecionar equipe terceirizada" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="49FS+1d" ActualDuration="3d" Duration="3d" ConstraintDate="2014-04-08T08:00" Start="2014-04-08T08:00" Finish="2014-04-10T17:00" EarlyStart="2014-04-08T08:00" EarlyFinish="2014-04-10T17:00" LateStart="2014-04-08T08:00" LateFinish="2014-04-10T17:00" ActualStart="2014-04-08T08:00" ActualFinish="2014-04-10T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="23" UniqueID="51" OutlineLevel="4" PercentComplete="100%" Name="Contratar equipe terceirizada" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="50" ActualDuration="5d" Duration="5d" Start="2014-04-11T08:00" Finish="2014-04-17T17:00" EarlyStart="2014-04-11T08:00" EarlyFinish="2014-04-17T17:00" LateStart="2014-04-11T08:00" LateFinish="2014-04-17T17:00" ActualStart="2014-04-11T08:00" ActualFinish="2014-04-17T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="24" UniqueID="52" OutlineLevel="4" PercentComplete="100%" Name="Delegar atividades dos membros da equipe terceirizada" ResourceNames="Analista RH Pl" Resources="1" UniqueIDPredecessors="51" ActualDuration="2d" Duration="2d" Start="2014-04-18T08:00" Finish="2014-04-21T17:00" EarlyStart="2014-04-18T08:00" EarlyFinish="2014-04-21T17:00" LateStart="2014-04-18T08:00" LateFinish="2014-04-21T17:00" ActualStart="2014-04-18T08:00" ActualFinish="2014-04-21T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="25" UniqueID="3" OutlineLevel="2" PercentComplete="70%" Name="REQUISITOS DO SISTEMA" FreeSlack="-10d" TotalSlack="-10d" ActualDuration="14d" Duration="20d" RemainingDuration="6d" Start="2014-04-01T08:00" Finish="2014-04-28T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-28T17:00" LateStart="2014-03-18T08:00" LateFinish="2014-04-21T17:00" ActualStart="2014-04-01T08:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="26" UniqueID="9" OutlineLevel="3" PercentComplete="100%" Name="REQUISITOS JUR&#205;DICOS" FreeSlack="-5d" TotalSlack="-5d" ActualDuration="20d" Duration="20d" Start="2014-04-01T08:00" Finish="2014-04-28T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-28T17:00" LateStart="2014-03-25T08:00" LateFinish="2014-04-21T17:00" ActualStart="2014-04-01T08:00" ActualFinish="2014-04-28T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="27" UniqueID="53" OutlineLevel="4" PercentComplete="100%" Name="Analisar a lei 12619" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="134" TotalSlack="-5d" ActualDuration="10d" Duration="10d" Start="2014-04-01T08:00" Finish="2014-04-14T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-14T17:00" LateStart="2014-03-25T08:00" LateFinish="2014-04-07T17:00" ActualStart="2014-04-01T08:00" ActualFinish="2014-04-07T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="28" UniqueID="54" OutlineLevel="4" PercentComplete="100%" Name="Especificar a lei 12619 para sistema" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="53" TotalSlack="-5d" ActualDuration="15d" Duration="15d" ConstraintDate="2014-04-07T08:00" Start="2014-04-08T08:00" Finish="2014-04-28T17:00" EarlyStart="2014-04-08T08:00" EarlyFinish="2014-04-28T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-21T17:00" ActualStart="2014-04-08T08:00" ActualFinish="2014-04-21T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="29" UniqueID="55" OutlineLevel="4" PercentComplete="100%" Name="Validar especifica&#231;&#227;o lei 12619" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="54" TotalSlack="-1d" ActualDuration="3d" Duration="3d" Start="2014-04-10T08:00" Finish="2014-04-14T17:00" EarlyStart="2014-04-10T08:00" EarlyFinish="2014-04-14T17:00" LateStart="2014-04-09T08:00" LateFinish="2014-04-11T17:00" ActualStart="2014-04-10T08:00" ActualFinish="2014-04-11T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="30" UniqueID="56" OutlineLevel="4" PercentComplete="100%" Name="Avaliar poss&#237;veis altera&#231;&#245;es da lei 12619" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="123" TotalSlack="-2d" ActualDuration="3d" Duration="3d" Start="2014-04-14T08:00" Finish="2014-04-16T17:00" EarlyStart="2014-04-14T08:00" EarlyFinish="2014-04-16T17:00" LateStart="2014-04-10T08:00" LateFinish="2014-04-14T17:00" ActualStart="2014-04-14T08:00" ActualFinish="2014-04-14T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="31" UniqueID="10" OutlineLevel="3" Name="REQUISITOS DO CLIENTE" FreeSlack="-16d" TotalSlack="-16d" Duration="13d" RemainingDuration="13d" Start="2014-04-01T08:00" Finish="2014-04-17T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-17T17:00" LateStart="2014-03-18T08:00" LateFinish="2014-03-26T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="32" UniqueID="57" OutlineLevel="4" Name="Analisar demanda do cliente" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="134" TotalSlack="-10d" Duration="2d" RemainingDuration="2d" Start="2014-04-01T08:00" Finish="2014-04-02T17:00" EarlyStart="2014-04-01T08:00" EarlyFinish="2014-04-02T17:00" LateStart="2014-03-18T08:00" LateFinish="2014-03-19T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="33" UniqueID="58" OutlineLevel="4" Name="Especificar demanda do cliente" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="57,46" TotalSlack="-16d" Duration="3d" RemainingDuration="3d" Start="2014-04-11T08:00" Finish="2014-04-15T17:00" EarlyStart="2014-04-11T08:00" EarlyFinish="2014-04-15T17:00" LateStart="2014-03-20T08:00" LateFinish="2014-03-24T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="34" UniqueID="59" OutlineLevel="4" Name="Validar demanda do cliente" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="58" TotalSlack="-16d" Duration="1d" Start="2014-04-16T08:00" Finish="2014-04-16T17:00" EarlyStart="2014-04-16T08:00" EarlyFinish="2014-04-16T17:00" LateStart="2014-03-25T08:00" LateFinish="2014-03-25T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="35" UniqueID="60" OutlineLevel="4" Name="Consolidar requisitos do cliente" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="59" TotalSlack="-16d" Duration="1d" Start="2014-04-17T08:00" Finish="2014-04-17T17:00" EarlyStart="2014-04-17T08:00" EarlyFinish="2014-04-17T17:00" LateStart="2014-03-26T08:00" LateFinish="2014-03-26T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="36" UniqueID="11" OutlineLevel="3" Name="REQUISITOS FUNCIONAIS" FreeSlack="-16d" TotalSlack="-16d" Duration="6d" RemainingDuration="6d" Start="2014-04-18T08:00" Finish="2014-04-25T17:00" EarlyStart="2014-04-18T08:00" EarlyFinish="2014-04-25T17:00" LateStart="2014-03-27T08:00" LateFinish="2014-04-03T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="37" UniqueID="61" OutlineLevel="4" Name="Analisar requisitos do sistema" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="60" TotalSlack="-16d" Duration="3d" RemainingDuration="3d" Start="2014-04-18T08:00" Finish="2014-04-22T17:00" EarlyStart="2014-04-18T08:00" EarlyFinish="2014-04-22T17:00" LateStart="2014-03-27T08:00" LateFinish="2014-03-31T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="38" UniqueID="62" OutlineLevel="4" Name="Especificar requisitos do sistema" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="61" TotalSlack="-16d" Duration="1d" Start="2014-04-23T08:00" Finish="2014-04-23T17:00" EarlyStart="2014-04-23T08:00" EarlyFinish="2014-04-23T17:00" LateStart="2014-04-01T08:00" LateFinish="2014-04-01T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="39" UniqueID="63" OutlineLevel="4" Name="Validar requisitos do sistema" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="62" TotalSlack="-16d" Duration="1d" Start="2014-04-24T08:00" Finish="2014-04-24T17:00" EarlyStart="2014-04-24T08:00" EarlyFinish="2014-04-24T17:00" LateStart="2014-04-02T08:00" LateFinish="2014-04-02T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="40" UniqueID="64" OutlineLevel="4" Name="Consolidar requisitos funcionais" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="63" TotalSlack="-16d" Duration="1d" Start="2014-04-25T08:00" Finish="2014-04-25T17:00" EarlyStart="2014-04-25T08:00" EarlyFinish="2014-04-25T17:00" LateStart="2014-04-03T08:00" LateFinish="2014-04-03T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="41" UniqueID="4" OutlineLevel="2" Name="SISTEMA DE GEST&#195;O" Duration="58d" RemainingDuration="58d" Start="2014-04-22T08:00" Finish="2014-07-10T17:00" EarlyStart="2014-04-22T08:00" EarlyFinish="2014-07-10T17:00" LateStart="2014-04-28T08:00" LateFinish="2014-07-10T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="42" UniqueID="8" OutlineLevel="3" Name="SOFTWARE MOBILE" Duration="41d" RemainingDuration="41d" Start="2014-04-28T08:00" Finish="2014-06-23T17:00" EarlyStart="2014-04-28T08:00" EarlyFinish="2014-06-23T17:00" LateStart="2014-04-28T08:00" LateFinish="2014-07-10T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="43" UniqueID="66" OutlineLevel="4" Name="INTERFACE GR&#193;FICA" FreeSlack="13d" TotalSlack="13d" Duration="5d" RemainingDuration="5d" Start="2014-05-02T08:00" Finish="2014-05-08T17:00" EarlyStart="2014-05-02T08:00" EarlyFinish="2014-05-08T17:00" LateStart="2014-05-21T08:00" LateFinish="2014-05-27T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="44" UniqueID="67" OutlineLevel="5" Name="Definir layout" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="71" TotalSlack="13d" Duration="1d" ConstraintDate="2014-02-10T08:00" Start="2014-05-02T08:00" Finish="2014-05-02T17:00" EarlyStart="2014-05-02T08:00" EarlyFinish="2014-05-02T17:00" LateStart="2014-05-21T08:00" LateFinish="2014-05-21T17:00" EffortDriven="yes" ConstraintType="Start No Earlier Than" FixedCostAccrual="Prorated"/>
+			<task ID="45" UniqueID="68" OutlineLevel="5" Name="Desenhar interfaces gr&#225;ficas" ResourceNames="Analista TI Jr 1" Resources="4" UniqueIDPredecessors="67,52" TotalSlack="13d" Duration="3d" RemainingDuration="3d" Start="2014-05-05T08:00" Finish="2014-05-07T17:00" EarlyStart="2014-05-05T08:00" EarlyFinish="2014-05-07T17:00" LateStart="2014-05-22T08:00" LateFinish="2014-05-26T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="46" UniqueID="69" OutlineLevel="5" Name="Validar interfaces gr&#225;ficas" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="68" TotalSlack="13d" Duration="1d" Start="2014-05-08T08:00" Finish="2014-05-08T17:00" EarlyStart="2014-05-08T08:00" EarlyFinish="2014-05-08T17:00" LateStart="2014-05-27T08:00" LateFinish="2014-05-27T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="47" UniqueID="65" OutlineLevel="4" Name="PROGRAMA&#199;&#195;O" Duration="41d" RemainingDuration="41d" Start="2014-04-28T08:00" Finish="2014-06-23T17:00" EarlyStart="2014-04-28T08:00" EarlyFinish="2014-06-23T17:00" LateStart="2014-04-28T08:00" LateFinish="2014-07-10T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="48" UniqueID="70" OutlineLevel="5" Name="Definir par&#226;metros a serem exportados para o banco de dados" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="46,64" Duration="3d" RemainingDuration="3d" Start="2014-04-28T08:00" Finish="2014-04-30T17:00" EarlyStart="2014-04-28T08:00" EarlyFinish="2014-04-30T17:00" LateStart="2014-04-28T08:00" LateFinish="2014-04-30T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="49" UniqueID="71" OutlineLevel="5" Name="Definir linguagem de programa&#231;&#227;o" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="70" TotalSlack="1d" Duration="1d" Start="2014-05-01T08:00" Finish="2014-05-01T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-05-01T17:00" LateStart="2014-05-02T08:00" LateFinish="2014-05-02T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="50" UniqueID="72" OutlineLevel="5" Name="Definir conex&#245;es (portas, bancos, dispositivos)" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="71" TotalSlack="1d" Duration="2d" RemainingDuration="2d" Start="2014-05-02T08:00" Finish="2014-05-05T17:00" EarlyStart="2014-05-02T08:00" EarlyFinish="2014-05-05T17:00" LateStart="2014-05-05T08:00" LateFinish="2014-05-06T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="51" UniqueID="73" OutlineLevel="5" Name="Definir formata&#231;&#227;o" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="72" TotalSlack="1d" Duration="1d" Start="2014-05-06T08:00" Finish="2014-05-06T17:00" EarlyStart="2014-05-06T08:00" EarlyFinish="2014-05-06T17:00" LateStart="2014-05-07T08:00" LateFinish="2014-05-07T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="52" UniqueID="74" OutlineLevel="5" Name="Desenvolver sistema de gest&#227;o" ResourceNames="Analista TI Pl 1" Resources="2" UniqueIDPredecessors="73,69,100,103" TotalSlack="13d" Duration="30d" RemainingDuration="30d" Start="2014-05-09T08:00" Finish="2014-06-19T17:00" EarlyStart="2014-05-09T08:00" EarlyFinish="2014-06-19T17:00" LateStart="2014-05-28T08:00" LateFinish="2014-07-08T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="53" UniqueID="75" OutlineLevel="5" Name="Testar sistema de gest&#227;o celular" ResourceNames="Analista TI Pl 1" Resources="2" UniqueIDPredecessors="74" TotalSlack="13d" Duration="2d" RemainingDuration="2d" Start="2014-06-20T08:00" Finish="2014-06-23T17:00" EarlyStart="2014-06-20T08:00" EarlyFinish="2014-06-23T17:00" LateStart="2014-07-09T08:00" LateFinish="2014-07-10T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="54" UniqueID="15" OutlineLevel="3" Name="SOFTWARE DE GEST&#195;O" Duration="51d" RemainingDuration="51d" Start="2014-05-01T08:00" Finish="2014-07-10T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-07-10T17:00" LateStart="2014-05-01T08:00" LateFinish="2014-07-10T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="55" UniqueID="88" OutlineLevel="4" Name="INTERFACE GR&#193;FICA" Duration="5d" RemainingDuration="5d" Start="2014-05-02T08:00" Finish="2014-05-08T17:00" EarlyStart="2014-05-02T08:00" EarlyFinish="2014-05-08T17:00" LateStart="2014-05-02T08:00" LateFinish="2014-05-08T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="56" UniqueID="89" OutlineLevel="5" Name="Definir layout" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="94" Duration="1d" Start="2014-05-02T08:00" Finish="2014-05-02T17:00" EarlyStart="2014-05-02T08:00" EarlyFinish="2014-05-02T17:00" LateStart="2014-05-02T08:00" LateFinish="2014-05-02T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="57" UniqueID="90" OutlineLevel="5" Name="Desenhar interfaces gr&#225;ficas" ResourceNames="Analista TI Jr 2" Resources="5" UniqueIDPredecessors="89,52" Duration="3d" RemainingDuration="3d" Start="2014-05-05T08:00" Finish="2014-05-07T17:00" EarlyStart="2014-05-05T08:00" EarlyFinish="2014-05-07T17:00" LateStart="2014-05-05T08:00" LateFinish="2014-05-07T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="58" UniqueID="91" OutlineLevel="5" Name="Validar interfaces gr&#225;ficas" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="90" Duration="1d" Start="2014-05-08T08:00" Finish="2014-05-08T17:00" EarlyStart="2014-05-08T08:00" EarlyFinish="2014-05-08T17:00" LateStart="2014-05-08T08:00" LateFinish="2014-05-08T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="59" UniqueID="92" OutlineLevel="4" Name="PROGRAMA&#199;&#195;O" Duration="51d" RemainingDuration="51d" Start="2014-05-01T08:00" Finish="2014-07-10T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-07-10T17:00" LateStart="2014-05-01T08:00" LateFinish="2014-07-10T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="60" UniqueID="94" OutlineLevel="5" Name="Definir linguagem de programa&#231;&#227;o" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="70" Duration="1d" Start="2014-05-01T08:00" Finish="2014-05-01T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-05-01T17:00" LateStart="2014-05-01T08:00" LateFinish="2014-05-01T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="61" UniqueID="95" OutlineLevel="5" Name="Definir conex&#245;es (portas, bancos, dispositivos)" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="94" TotalSlack="1d" Duration="2d" RemainingDuration="2d" Start="2014-05-02T08:00" Finish="2014-05-05T17:00" EarlyStart="2014-05-02T08:00" EarlyFinish="2014-05-05T17:00" LateStart="2014-05-05T08:00" LateFinish="2014-05-06T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="62" UniqueID="96" OutlineLevel="5" Name="Definir formata&#231;&#227;o" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="95" TotalSlack="1d" Duration="1d" Start="2014-05-06T08:00" Finish="2014-05-06T17:00" EarlyStart="2014-05-06T08:00" EarlyFinish="2014-05-06T17:00" LateStart="2014-05-07T08:00" LateFinish="2014-05-07T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="63" UniqueID="97" OutlineLevel="5" Name="Desenvolver sistema de gest&#227;o" ResourceNames="Analista TI Pl 2" Resources="3" UniqueIDPredecessors="96,91,100" Duration="40d" RemainingDuration="40d" Start="2014-05-09T08:00" Finish="2014-07-03T17:00" EarlyStart="2014-05-09T08:00" EarlyFinish="2014-07-03T17:00" LateStart="2014-05-09T08:00" LateFinish="2014-07-03T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="64" UniqueID="98" OutlineLevel="5" Name="Testar sistema de gest&#227;o" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="97" Duration="5d" RemainingDuration="5d" Start="2014-07-04T08:00" Finish="2014-07-10T17:00" EarlyStart="2014-07-04T08:00" EarlyFinish="2014-07-10T17:00" LateStart="2014-07-04T08:00" LateFinish="2014-07-10T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="65" UniqueID="16" OutlineLevel="3" Name="BANCO DE DADOS" FreeSlack="1d" TotalSlack="1d" Duration="5d" RemainingDuration="5d" Start="2014-05-01T08:00" Finish="2014-05-07T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-05-07T17:00" LateStart="2014-05-06T08:00" LateFinish="2014-05-08T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="66" UniqueID="99" OutlineLevel="4" Name="Avaliar bancos de dados vi&#225;veis" ResourceNames="Analista TI Pl 2" Resources="3" UniqueIDPredecessors="70" TotalSlack="3d" Duration="2d" RemainingDuration="2d" Start="2014-05-01T08:00" Finish="2014-05-02T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-05-02T17:00" LateStart="2014-05-06T08:00" LateFinish="2014-05-07T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="67" UniqueID="100" OutlineLevel="4" Name="Definir banco de dados" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="99,73,96" TotalSlack="1d" Duration="1d" Start="2014-05-07T08:00" Finish="2014-05-07T17:00" EarlyStart="2014-05-07T08:00" EarlyFinish="2014-05-07T17:00" LateStart="2014-05-08T08:00" LateFinish="2014-05-08T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="68" UniqueID="17" OutlineLevel="3" Name="HOMOLOGA&#199;&#195;O SMARTPHONES" FreeSlack="15d" TotalSlack="15d" Duration="11d" RemainingDuration="11d" Start="2014-04-22T08:00" Finish="2014-05-06T17:00" EarlyStart="2014-04-22T08:00" EarlyFinish="2014-05-06T17:00" LateStart="2014-05-23T08:00" LateFinish="2014-05-27T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="69" UniqueID="101" OutlineLevel="4" Name="Avaliar Smartphones do mercado" ResourceNames="Analista TI Jr 1" Resources="4" UniqueIDPredecessors="52" TotalSlack="23d" Duration="1d" Start="2014-04-22T08:00" Finish="2014-04-22T17:00" EarlyStart="2014-04-22T08:00" EarlyFinish="2014-04-22T17:00" LateStart="2014-05-23T08:00" LateFinish="2014-05-23T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="70" UniqueID="102" OutlineLevel="4" Name="Verificar distribui&#231;&#227;o dos Smartphones nas localidades" ResourceNames="Analista TI Jr 1" Resources="4" UniqueIDPredecessors="101" TotalSlack="23d" Duration="1d" Start="2014-04-23T08:00" Finish="2014-04-23T17:00" EarlyStart="2014-04-23T08:00" EarlyFinish="2014-04-23T17:00" LateStart="2014-05-26T08:00" LateFinish="2014-05-26T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="71" UniqueID="103" OutlineLevel="4" Name="Definir Smartphones que ser&#227;o homologados" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="102,72,95" TotalSlack="15d" Duration="1d" Start="2014-05-06T08:00" Finish="2014-05-06T17:00" EarlyStart="2014-05-06T08:00" EarlyFinish="2014-05-06T17:00" LateStart="2014-05-27T08:00" LateFinish="2014-05-27T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="72" UniqueID="6" OutlineLevel="2" Name="IMPLEMENTA&#199;&#195;O DO SISTEMA" Duration="102d" RemainingDuration="102d" Start="2014-04-28T08:00" Finish="2014-09-16T17:00" EarlyStart="2014-04-28T08:00" EarlyFinish="2014-09-16T17:00" LateStart="2014-07-11T08:00" LateFinish="2014-09-16T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="73" UniqueID="21" OutlineLevel="3" Name="INSTALA&#199;&#195;O" Duration="23d" RemainingDuration="23d" Start="2014-07-11T08:00" Finish="2014-08-12T17:00" EarlyStart="2014-07-11T08:00" EarlyFinish="2014-08-12T17:00" LateStart="2014-07-11T08:00" LateFinish="2014-08-12T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="74" UniqueID="38" OutlineLevel="4" Name="TESTE PILOTO" Duration="12d" RemainingDuration="12d" Start="2014-07-11T08:00" Finish="2014-07-28T17:00" EarlyStart="2014-07-11T08:00" EarlyFinish="2014-07-28T17:00" LateStart="2014-07-11T08:00" LateFinish="2014-07-28T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="75" UniqueID="111" OutlineLevel="5" Name="Instalar o sistema" ResourceNames="Analista TI Pl 2" Resources="3" UniqueIDPredecessors="75,98" Duration="2d" RemainingDuration="2d" Start="2014-07-11T08:00" Finish="2014-07-14T17:00" EarlyStart="2014-07-11T08:00" EarlyFinish="2014-07-14T17:00" LateStart="2014-07-11T08:00" LateFinish="2014-07-14T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="76" UniqueID="113" OutlineLevel="5" Name="Revisar sistema" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="112" Duration="5d" RemainingDuration="5d" Start="2014-07-22T08:00" Finish="2014-07-28T17:00" EarlyStart="2014-07-22T08:00" EarlyFinish="2014-07-28T17:00" LateStart="2014-07-22T08:00" LateFinish="2014-07-28T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="77" UniqueID="112" OutlineLevel="5" Name="Corrigir problemas" ResourceNames="Analista TI Pl 2" Resources="3" UniqueIDPredecessors="111" Duration="5d" RemainingDuration="5d" Start="2014-07-15T08:00" Finish="2014-07-21T17:00" EarlyStart="2014-07-15T08:00" EarlyFinish="2014-07-21T17:00" LateStart="2014-07-15T08:00" LateFinish="2014-07-21T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="78" UniqueID="39" OutlineLevel="4" Name="INSTALA&#199;&#195;O FINAL" Duration="11d" RemainingDuration="11d" Start="2014-07-29T08:00" Finish="2014-08-12T17:00" EarlyStart="2014-07-29T08:00" EarlyFinish="2014-08-12T17:00" LateStart="2014-07-29T08:00" LateFinish="2014-08-12T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="79" UniqueID="114" OutlineLevel="5" Name="Definir equipamentos que ser&#227;o alocados para o projeto" ResourceNames="Analista TI Pl 2" Resources="3" UniqueIDPredecessors="113" Duration="1d" RemainingDuration="1d" Start="2014-07-29T08:00" Finish="2014-07-29T17:00" EarlyStart="2014-07-29T08:00" EarlyFinish="2014-07-29T17:00" LateStart="2014-07-29T08:00" LateFinish="2014-07-29T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="80" UniqueID="115" OutlineLevel="5" Name="Configurar equipamentos para opera&#231;&#227;o do sistema" ResourceNames="Analista TI Pl 2" Resources="3" UniqueIDPredecessors="114" Duration="5d" RemainingDuration="5d" Start="2014-07-30T08:00" Finish="2014-08-05T17:00" EarlyStart="2014-07-30T08:00" EarlyFinish="2014-08-05T17:00" LateStart="2014-07-30T08:00" LateFinish="2014-08-05T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="81" UniqueID="116" OutlineLevel="5" Name="Implementar sistema" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="115" Duration="5d" RemainingDuration="5d" Start="2014-08-06T08:00" Finish="2014-08-12T17:00" EarlyStart="2014-08-06T08:00" EarlyFinish="2014-08-12T17:00" LateStart="2014-08-06T08:00" LateFinish="2014-08-12T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="82" UniqueID="107" OutlineLevel="3" Name="TREINAMENTO" Duration="80d" RemainingDuration="80d" Start="2014-04-28T08:00" Finish="2014-08-15T17:00" EarlyStart="2014-04-28T08:00" EarlyFinish="2014-08-15T17:00" LateStart="2014-08-05T08:00" LateFinish="2014-08-15T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="83" UniqueID="108" OutlineLevel="4" Name="Definir p&#250;blicos de treinamento" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="64" TotalSlack="71d" Duration="1d" Start="2014-04-28T08:00" Finish="2014-04-28T17:00" EarlyStart="2014-04-28T08:00" EarlyFinish="2014-04-28T17:00" LateStart="2014-08-05T08:00" LateFinish="2014-08-05T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="84" UniqueID="109" OutlineLevel="4" Name="Criar treinamentos" ResourceNames="Analista TI Pl 1" Resources="2" UniqueIDPredecessors="108,113" TotalSlack="6d" Duration="5d" RemainingDuration="5d" Start="2014-07-29T08:00" Finish="2014-08-04T17:00" EarlyStart="2014-07-29T08:00" EarlyFinish="2014-08-04T17:00" LateStart="2014-08-06T08:00" LateFinish="2014-08-12T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="85" UniqueID="110" OutlineLevel="4" Name="Realizar treinamentos" ResourceNames="Analista TI Pl 1" Resources="2" UniqueIDPredecessors="109,116" Duration="3d" RemainingDuration="3d" Start="2014-08-13T08:00" Finish="2014-08-15T17:00" EarlyStart="2014-08-13T08:00" EarlyFinish="2014-08-15T17:00" LateStart="2014-08-13T08:00" LateFinish="2014-08-15T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="86" UniqueID="22" OutlineLevel="3" Name="VALIDA&#199;&#195;O" Duration="22d" RemainingDuration="22d" Start="2014-08-18T08:00" Finish="2014-09-16T17:00" EarlyStart="2014-08-18T08:00" EarlyFinish="2014-09-16T17:00" LateStart="2014-08-18T08:00" LateFinish="2014-09-16T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="87" UniqueID="117" OutlineLevel="4" Name="Simular situa&#231;&#227;o real" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="110" Duration="5d" RemainingDuration="5d" Start="2014-08-18T08:00" Finish="2014-08-22T17:00" EarlyStart="2014-08-18T08:00" EarlyFinish="2014-08-22T17:00" LateStart="2014-08-18T08:00" LateFinish="2014-08-22T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="88" UniqueID="118" OutlineLevel="4" Name="Avaliar os crit&#233;rios definidos para valida&#231;&#227;o" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="117" Duration="2d" RemainingDuration="2d" Start="2014-08-25T08:00" Finish="2014-08-26T17:00" EarlyStart="2014-08-25T08:00" EarlyFinish="2014-08-26T17:00" LateStart="2014-08-25T08:00" LateFinish="2014-08-26T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="89" UniqueID="119" OutlineLevel="4" Name="Acompanhar estabilidade de sistema" ResourceNames="Analista TI Sr" Resources="6" UniqueIDPredecessors="118" Duration="15d" RemainingDuration="15d" Start="2014-08-27T08:00" Finish="2014-09-16T17:00" EarlyStart="2014-08-27T08:00" EarlyFinish="2014-09-16T17:00" LateStart="2014-08-27T08:00" LateFinish="2014-09-16T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="90" UniqueID="36" OutlineLevel="2" Name="CONTRATO" FreeSlack="-9d" TotalSlack="-9d" Duration="15d" RemainingDuration="15d" Start="2014-04-17T08:00" Finish="2014-05-07T17:00" EarlyStart="2014-04-17T08:00" EarlyFinish="2014-05-07T17:00" LateStart="2014-04-04T08:00" LateFinish="2014-10-01T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="91" UniqueID="120" OutlineLevel="3" Name="Definir contrato de licen&#231;as" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="55,64" TotalSlack="-16d" Duration="1d" Start="2014-04-28T08:00" Finish="2014-04-28T17:00" EarlyStart="2014-04-28T08:00" EarlyFinish="2014-04-28T17:00" LateStart="2014-04-04T08:00" LateFinish="2014-04-04T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="92" UniqueID="121" OutlineLevel="3" Name="Definir contrato de fidelidade" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="122" TotalSlack="-16d" Duration="1d" Start="2014-04-30T08:00" Finish="2014-04-30T17:00" EarlyStart="2014-04-30T08:00" EarlyFinish="2014-04-30T17:00" LateStart="2014-04-08T08:00" LateFinish="2014-04-08T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="93" UniqueID="122" OutlineLevel="3" Name="Definir contrato de propriedade" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="120" TotalSlack="-16d" Duration="1d" Start="2014-04-29T08:00" Finish="2014-04-29T17:00" EarlyStart="2014-04-29T08:00" EarlyFinish="2014-04-29T17:00" LateStart="2014-04-07T08:00" LateFinish="2014-04-07T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="94" UniqueID="123" OutlineLevel="3" Name="Definir cl&#225;usula para aceite e valida&#231;&#227;o" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="121" TotalSlack="-16d" Duration="1d" Start="2014-05-01T08:00" Finish="2014-05-01T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-05-01T17:00" LateStart="2014-04-09T08:00" LateFinish="2014-04-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="95" UniqueID="130" OutlineLevel="3" Name="Redigir contrato" ResourceNames="Advogado Pl" Resources="7" UniqueIDPredecessors="56" TotalSlack="105d" Duration="10d" RemainingDuration="10d" Start="2014-04-17T08:00" Finish="2014-04-30T17:00" EarlyStart="2014-04-17T08:00" EarlyFinish="2014-04-30T17:00" LateStart="2014-09-11T08:00" LateFinish="2014-09-24T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="96" UniqueID="124" OutlineLevel="3" Name="Validar contrato" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="130" TotalSlack="105d" Duration="3d" RemainingDuration="3d" Start="2014-05-01T08:00" Finish="2014-05-05T17:00" EarlyStart="2014-05-01T08:00" EarlyFinish="2014-05-05T17:00" LateStart="2014-09-25T08:00" LateFinish="2014-09-29T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="97" UniqueID="125" OutlineLevel="3" Name="Assinar contrato" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="124" TotalSlack="105d" Duration="1d" Start="2014-05-06T08:00" Finish="2014-05-06T17:00" EarlyStart="2014-05-06T08:00" EarlyFinish="2014-05-06T17:00" LateStart="2014-09-30T08:00" LateFinish="2014-09-30T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="98" UniqueID="126" OutlineLevel="3" Name="Arquivar contrato" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="125" TotalSlack="105d" Duration="1d" Start="2014-05-07T08:00" Finish="2014-05-07T17:00" EarlyStart="2014-05-07T08:00" EarlyFinish="2014-05-07T17:00" LateStart="2014-10-01T08:00" LateFinish="2014-10-01T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="99" UniqueID="24" OutlineLevel="2" Name="ENCERRAMENTO" Duration="12d" RemainingDuration="12d" Start="2014-09-17T08:00" Finish="2014-10-02T17:00" EarlyStart="2014-09-17T08:00" EarlyFinish="2014-10-02T17:00" LateStart="2014-09-17T08:00" LateFinish="2014-10-02T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="100" UniqueID="127" OutlineLevel="3" Name="Avalia&#231;&#227;o final do cliente" UniqueIDPredecessors="119" Duration="10d" RemainingDuration="10d" Start="2014-09-17T08:00" Finish="2014-09-30T17:00" EarlyStart="2014-09-17T08:00" EarlyFinish="2014-09-30T17:00" LateStart="2014-09-17T08:00" LateFinish="2014-09-30T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="101" UniqueID="128" OutlineLevel="3" Name="Aceite T&#233;cnico" UniqueIDPredecessors="127" Duration="1d" Start="2014-10-01T08:00" Finish="2014-10-01T17:00" EarlyStart="2014-10-01T08:00" EarlyFinish="2014-10-01T17:00" LateStart="2014-10-01T08:00" LateFinish="2014-10-01T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="102" UniqueID="129" OutlineLevel="3" Name="Finaliza&#231;&#227;o do contrato" ResourceNames="Gerentes de Projetos" Resources="8" UniqueIDPredecessors="126,128" Duration="1d" Start="2014-10-02T08:00" Finish="2014-10-02T17:00" EarlyStart="2014-10-02T08:00" EarlyFinish="2014-10-02T17:00" LateStart="2014-10-02T08:00" LateFinish="2014-10-02T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+		</tasks>
+		<outline current="134"/>
+	</proj>
+	<printInfo mode="scale" orient="landscape" pagesWide="1" pagesHigh="1" scale="100%" bw="no" enlarge="no" byColumn="no" adjustPageBreaks="no" marginTop="36pt" marginLeft="36pt" marginBottom="36pt" marginRight="36pt"/>
+	<pageLayouts>
+		<pageLayout id="Page Layout 1" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Page numbers upper right." SheetNumbers="yes">
+			<grid id="frame" rows="2" cols="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 2" description="WBS Chart Top/Left aligned.&#13;&#10;Title field displayed above chart no border. &#13;&#10;Page numbers upper right." SheetNumbers="yes">
+			<grid id="frame" rows="2" cols="1" top="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="1.45pt" bottom_p="1.45pt" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 3" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; Date in lower left corner.&#13;&#10;Border around every page.&#13;&#10;Page numbers in lower right. " BorderEveryPage="yes">
+			<grid id="frame" rows="3" cols="2">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Page Number)" format="13" halign="right" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 4" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Border around every page.&#13;&#10;Page numbers in lower right. &#13;&#10;No border around outside fields." BorderEveryPage="yes">
+			<grid id="frame" rows="3" cols="2" top="1" bottom="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" colspan="2" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" colspan="2"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt"/>
+					<cell field="p (Page Number)" format="13" halign="right" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 5" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Company below and center.&#13;&#10;&quot;Project Completion&quot; date lower right.&#13;&#10;Page number lower left.&#13;&#10;Manager below center.&#13;&#10;CONFIDENTIAL lower right.&#13;&#10;Border around outside pages. &#13;&#10;Page numbers in upper right. " SheetNumbers="yes">
+			<grid id="frame" rows="4" cols="3">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="3" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" label="Printed On: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="pCompany" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+					<cell field="pFinish" label="Project Completion: " left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="p (Page Number)" format="13" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid"/>
+					<cell field="pManager" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell bold="yes" label="CONFIDENTIAL" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 6" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart. &#13;&#10;&quot;Printed on&quot; date in lower left corner.&#13;&#10;Manager below center.&#13;&#10;CONFIDENTIAL lower right.&#13;&#10;Border around outside pages. &#13;&#10;Page numbers in upper right. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="3" top="1" bottom="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" colspan="3" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" colspan="3"/>
+				</row>
+				<row>
+					<cell field="pCurrent Date" format="2" halign="left" label="Printed on: " left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt"/>
+					<cell field="pManager" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+					<cell halign="right" bold="yes" label="CONFIDENTIAL" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 7" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Fields at bottom." SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="1">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" halign="left" label="Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 8" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Fields and Legend of Box Border styles at bottom. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="2">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" label="Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Legend: Borders)" format="1" halign="left" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="Page Layout 9" description="WBS Chart Top/Left aligned.&#13;&#10;Title field above chart with border around Title field. &#13;&#10;Border around outside pages.&#13;&#10;Legend of Summary Tasks Fields, Task Fields and Legend of Box Border styles at bottom. " SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="3">
+				<row>
+					<cell field="pTitle" font-size="10pt" bold="yes" left_p="0.7pt" right_p="0.7pt" top_p="3.6pt" bottom_p="3.6pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="3"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" label="Summary Task Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" top_s="solid"/>
+					<cell field="p (Legend: Fields)" format="1" label="Task Fields" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" right_s="solid" top_s="solid"/>
+					<cell field="p (Legend: Borders)" format="1" left_p="3.6pt" right_p="3.6pt" top_p="2.15pt" bottom_p="2.15pt" left_s="solid" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="PERT Page Layout 1" SheetNumbers="yes">
+			<grid id="frame" rows="2" cols="1">
+				<row>
+					<cell field="pTitle" font-size="12pt" bold="yes" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="18pt" right_p="18pt" top_p="18pt" bottom_p="18pt" top_s="solid"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="PERT Page Layout 2" SheetNumbers="yes">
+			<grid id="frame" rows="3" cols="2">
+				<row>
+					<cell field="pTitle" font-size="12pt" bold="yes" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="7.2pt" right_p="7.2pt" top_p="7.2pt" bottom_p="7.2pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" colspan="2"/>
+				</row>
+				<row>
+					<cell field="p (Legend: Fields)" format="1" valign="top" label="Fields" left_p="2.9pt" right_p="2.9pt" top_p="2.9pt" bottom_p="2.9pt" right_s="solid" top_s="solid"/>
+					<cell field="p (Legend: Borders)" format="1" halign="left" valign="top" left_p="2.9pt" right_p="2.9pt" top_p="2.9pt" bottom_p="2.9pt" left_s="solid" top_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" bkcolor="none"/>
+		</pageLayout>
+		<pageLayout id="PERT Page Layout 3" SheetNumbers="yes">
+			<grid id="frame" rows="1" cols="1">
+				<row stretch="yes">
+					<cell field="p (Chart)" halign="left" valign="top" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt" stretch="yes"/>
+				</row>
+			</grid>
+			<border id="frame" style="null" bkcolor="none"/>
+		</pageLayout>
+	</pageLayouts>
+	<views current="Flags View" current_wbs="Flags View" current_nd="PERT View 1" mode="normal">
+		<wbs_view id="Critical Path View 2" pagelayout="Page Layout 8" outlinesymbolpos="bottomcenter" field=" (Blank)">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="7.2pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt" shcolor="gray" color="gray">
+				<border_edge id="top" color="gray"/>
+				<border_edge id="left" color="gray"/>
+				<border_edge id="bottom" color="gray"/>
+				<border_edge id="right" color="gray"/>
+			</border>
+			<grid id="summary" rows="4" cols="3" top="1">
+				<row>
+					<cell field="WBS" halign="left" bold="yes" color="red" left_p="0.7pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="ID" bold="yes" orient="bottomtop" bkcolor="yellow" left_p="0.7pt" right_p="0.7pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid" rowspan="3"/>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Duration" format="5" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="5" cols="3" top="1">
+				<row>
+					<cell field="WBS" halign="left" bold="yes" color="red" left_p="0.7pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" colspan="3"/>
+				</row>
+				<row stretch="yes">
+					<cell field="ID" bold="yes" orient="bottomtop" bkcolor="yellow" left_p="0.7pt" right_p="0.7pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid" rowspan="4"/>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Resource Names" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid" charlen="20"/>
+					<cell top_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Actual Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Critical Path View" pagelayout="Page Layout 1" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="2.15pt" listmode="stemleft"/>
+			<border id="Critical Task" style="null" color="red" bkcolor="none">
+				<border_edge id="top" color="red"/>
+				<border_edge id="left" color="red"/>
+				<border_edge id="bottom" color="red"/>
+				<border_edge id="right" color="red"/>
+			</border>
+			<border id="Critical Milestone" style="null" color="red" bkcolor="none">
+				<border_edge id="top" color="red"/>
+				<border_edge id="left" color="red"/>
+				<border_edge id="bottom" color="red"/>
+				<border_edge id="right" color="red"/>
+			</border>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" style="null" color="blue" bkcolor="none">
+				<border_edge id="top" color="blue"/>
+				<border_edge id="left" color="blue"/>
+				<border_edge id="bottom" color="blue"/>
+				<border_edge id="right" color="blue"/>
+			</border>
+			<border id="Noncritical Milestone" style="null" color="blue" bkcolor="none">
+				<border_edge id="top" color="blue"/>
+				<border_edge id="left" color="blue"/>
+				<border_edge id="bottom" color="blue"/>
+				<border_edge id="right" color="blue"/>
+			</border>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" style="null"/>
+			<grid id="summary" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" charlen="20"/>
+				</row>
+			</grid>
+			<grid id="task" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" halign="left" bold="yes" left_p="0.7pt" right_p="0pt" top_p="0pt" bottom_p="0pt" charlen="20"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Flags View" pagelayout="Page Layout 8" borderpolicy="flags" outlinesymbolpos="bottomcenter" field="Start">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="10.8pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="No Flag Task" bkcolor="none">
+				<border_edge id="top" bkcolor="black"/>
+				<border_edge id="left" bkcolor="black"/>
+				<border_edge id="bottom" bkcolor="black"/>
+				<border_edge id="right" bkcolor="black"/>
+			</border>
+			<border id="No Flag Summary" bkcolor="none">
+				<border_edge id="top" bkcolor="black"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="black"/>
+				<border_edge id="bottom" bkcolor="black"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="black"/>
+			</border>
+			<border id="Flag1" bkcolor="none">
+				<border_edge id="top" bkcolor="lime"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="lime"/>
+				<border_edge id="bottom" bkcolor="lime"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="lime"/>
+			</border>
+			<border id="Flag2" bkcolor="none">
+				<border_edge id="top" bkcolor="fuchsia"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="fuchsia"/>
+				<border_edge id="bottom" bkcolor="fuchsia"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="fuchsia"/>
+			</border>
+			<border id="Flag3" bkcolor="none">
+				<border_edge id="top" bkcolor="red"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="red"/>
+				<border_edge id="bottom" bkcolor="red"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="red"/>
+			</border>
+			<border id="Flag4" bkcolor="none">
+				<border_edge id="top" bkcolor="blue"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="bottom" bkcolor="blue"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="blue"/>
+			</border>
+			<border id="Flag5" bkcolor="none">
+				<border_edge id="top" bkcolor="yellow"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="bottom" bkcolor="yellow"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+			</border>
+			<border id="Flag6" bkcolor="none">
+				<border_edge id="top" bkcolor="aqua"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="aqua"/>
+				<border_edge id="bottom" bkcolor="aqua"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="aqua"/>
+			</border>
+			<border id="Flag7" bkcolor="none"/>
+			<border id="Flag8" bkcolor="none"/>
+			<border id="Flag9" bkcolor="none"/>
+			<border id="Flag10" bkcolor="none"/>
+			<border id="Flag11" bkcolor="none"/>
+			<border id="Flag12" bkcolor="none"/>
+			<border id="Flag13" bkcolor="none"/>
+			<border id="Flag14" bkcolor="none"/>
+			<border id="Flag15" bkcolor="none"/>
+			<border id="Flag16" bkcolor="none"/>
+			<border id="Flag17" bkcolor="none"/>
+			<border id="Flag18" bkcolor="none"/>
+			<border id="Flag19" bkcolor="none"/>
+			<border id="Flag20" bkcolor="none"/>
+			<grid id="summary" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" bkcolor="khaki" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" bkcolor="yellow" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" bkcolor="silver" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" barcolor="red" colspan="2" stretch="yes" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" bkcolor="yellow" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Hours and Cost View" pagelayout="Page Layout 6" outlinesymbolpos="bottomcenter" field="Cost">
+			<item id="summary" before="18pt"/>
+			<item id="task" before="14.4pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt" shcolor="gray" color="gray">
+				<border_edge id="top" color="gray"/>
+				<border_edge id="left" color="gray"/>
+				<border_edge id="bottom" color="gray"/>
+				<border_edge id="right" color="gray"/>
+			</border>
+			<grid id="summary" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="25"/>
+				</row>
+				<row>
+					<cell field="Work" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Cost" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="25"/>
+				</row>
+				<row>
+					<cell field="Text1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Cost" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Planning View 2" pagelayout="Page Layout 7" outlinesymbolpos="bottomcenter">
+			<item id="summary" drop="28.8pt" before="10.8pt"/>
+			<item id="task" before="10.8pt"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt"/>
+			<grid id="summary" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<grid id="task" rows="3" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Planning View" pagelayout="Page Layout 1" outlinesymbolpos="bottomcenter">
+			<item id="summary" drop="28.8pt" before="10.8pt"/>
+			<item id="task" before="10.8pt"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt"/>
+			<border id="External Task" shdir="bottom_right" shdepth="3pt"/>
+			<grid id="summary" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" charlen="20"/>
+				</row>
+			</grid>
+			<grid id="task" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="3.6pt" bottom_p="3.6pt" barcolor="red" charlen="20"/>
+				</row>
+			</grid>
+<wbs_diff>
+	<treediff id="25">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="29">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="30">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="31">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="32">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="33">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="34">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="35">
+		<item listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="43">
+		<item calign="independent" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="44">
+		<item calign="independent" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="45">
+		<item calign="independent" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="46">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="47">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="49">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="50">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="51">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="52">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="53">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="54">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="55">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="56">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="57">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="58">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="59">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="60">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="61">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="62">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="63">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="64">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="67">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="68">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="69">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="70">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="71">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="72">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="73">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="74">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="75">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="89">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="90">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="91">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="94">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="95">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="96">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="97">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="98">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="99">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="100">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="101">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="102">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="103">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="111">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="112">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="113">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="114">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="115">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="116">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="108">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="109">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="110">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="117">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="118">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="119">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="120">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="121">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="122">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="123">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="124">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="125">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="126">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="127">
+		<item listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="128">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="129">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+	<treediff id="48">
+		<item calign="branch_nearest" listmode="stemleft">
+		</item>
+	</treediff>
+	<treediff id="40">
+		<item calign="independent" listmode="stemleft">
+		</item>
+		<border shdir="none" shdepth="0pt" color="blue">
+			<border_edge id="top" color="blue">
+			</border_edge>
+			<border_edge id="left" shape="triangle" depth="5.1pt" color="blue">
+			</border_edge>
+			<border_edge id="bottom" color="blue">
+			</border_edge>
+			<border_edge id="right" color="blue">
+			</border_edge>
+		</border>
+	</treediff>
+</wbs_diff>
+
+		</wbs_view>
+		<wbs_view id="Progress View" pagelayout="Page Layout 8" borderpolicy="progress" outlinesymbolpos="bottomcenter">
+			<item id="summary" before="14.4pt"/>
+			<item id="task" before="7.2pt" listmode="stemleft"/>
+			<border id="Critical Task" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="3pt" shcolor="red" bkcolor="lightyellow"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="3pt" shcolor="blue" bkcolor="lightyellow"/>
+			<border id="Not Started Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="Not Started Milestone">
+				<border_edge id="top" shape="triangle" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="triangle" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="Not Started Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="left" bkcolor="green"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="green"/>
+				<border_edge id="right" bkcolor="green"/>
+			</border>
+			<border id="In Progress Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="left" bkcolor="yellow"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="right" bkcolor="yellow"/>
+			</border>
+			<border id="In Progress Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="left" bkcolor="yellow"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="yellow"/>
+				<border_edge id="right" bkcolor="yellow"/>
+			</border>
+			<border id="Completed Task">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<border id="Completed Milestone">
+				<border_edge id="top" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<border id="Completed Summary">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<grid id="summary" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" label="Id: " left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+			<grid id="task" rows="2" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="3.6pt" right_p="3.6pt" top_p="1.45pt" bottom_p="1.45pt" left_s="solid" right_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" label="Id: " left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="3.6pt" right_p="3.6pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid" stretch="yes"/>
+				</row>
+			</grid>
+<wbs_diff>
+</wbs_diff>
+
+		</wbs_view>
+		<nd_view id="PERT View 1" pagelayout="PERT Page Layout 2" projectsummary="yes">
+			<border id="Critical Task" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="External Task" shdir="bottom_right" shdepth="2.25pt" shcolor="gray"/>
+			<grid id="task" rows="4" cols="2">
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" bkcolor="silver" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row stretch="yes">
+					<cell field="Resource Names" bkcolor="khaki" left_p="0.7pt" right_p="0.7pt" top_p="0.7pt" bottom_p="0.7pt" top_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="ID" bkcolor="yellow" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="Duration" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<dependencies>
+				<line id="critical">
+					<arrow id="to" style="fat"/>
+				</line>
+				<line id="noncritical">
+					<arrow id="to" style="fat"/>
+				</line>
+			</dependencies>
+			<group show="yes" obscure="yes" field0="Resource Names" order0="use" nullname0="Unassigned" nullname1="none" nullname2="none">
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+			</group>
+			<grps>
+				<grp id="0" name="WBS" hdr="yes" cont="yes" hide="yes"/>
+				<grp id="1" name="Projeto Controle de Jornada dos Motoristas" level="1" hdr="yes" cont="yes"/>
+				<grp id="2" name="GERENCIAMENTO DO PROJETO" level="2" hdr="yes" closed="yes"/>
+				<grp id="26" name="RECURSOS HUMANOS" level="2" hdr="yes" cont="yes"/>
+				<grp id="27" name="RECURSOS PR&#211;PRIOS" level="3" hdr="yes" cont="yes"/>
+				<grp id="28" name="RECURSOS TERCEIROS" level="3" hdr="yes" cont="yes"/>
+				<grp id="3" name="REQUISITOS DO SISTEMA" level="2" hdr="yes" cont="yes"/>
+				<grp id="9" name="REQUISITOS JUR&#205;DICOS" level="3" hdr="yes" cont="yes"/>
+				<grp id="10" name="REQUISITOS DO CLIENTE" level="3" hdr="yes" cont="yes"/>
+				<grp id="11" name="REQUISITOS FUNCIONAIS" level="3" hdr="yes" cont="yes"/>
+				<grp id="4" name="SISTEMA DE GEST&#195;O" level="2" hdr="yes" cont="yes"/>
+				<grp id="8" name="SOFTWARE MOBILE" level="3" hdr="yes" cont="yes"/>
+				<grp id="66" name="INTERFACE GR&#193;FICA" level="4" hdr="yes" cont="yes"/>
+				<grp id="65" name="PROGRAMA&#199;&#195;O" level="4" hdr="yes" cont="yes"/>
+				<grp id="15" name="SOFTWARE DE GEST&#195;O" level="3" hdr="yes" cont="yes"/>
+				<grp id="88" name="INTERFACE GR&#193;FICA" level="4" hdr="yes" cont="yes"/>
+				<grp id="92" name="PROGRAMA&#199;&#195;O" level="4" hdr="yes" cont="yes"/>
+				<grp id="16" name="BANCO DE DADOS" level="3" hdr="yes" cont="yes"/>
+				<grp id="17" name="HOMOLOGA&#199;&#195;O SMARTPHONES" level="3" hdr="yes" cont="yes"/>
+				<grp id="6" name="IMPLEMENTA&#199;&#195;O DO SISTEMA" level="2" hdr="yes" cont="yes"/>
+				<grp id="21" name="INSTALA&#199;&#195;O" level="3" hdr="yes" cont="yes"/>
+				<grp id="38" name="TESTE PILOTO" level="4" hdr="yes" cont="yes"/>
+				<grp id="39" name="INSTALA&#199;&#195;O FINAL" level="4" hdr="yes" cont="yes"/>
+				<grp id="107" name="TREINAMENTO" level="3" hdr="yes" cont="yes"/>
+				<grp id="22" name="VALIDA&#199;&#195;O" level="3" hdr="yes" cont="yes"/>
+				<grp id="36" name="CONTRATO" level="2" hdr="yes" cont="yes"/>
+				<grp id="24" name="ENCERRAMENTO" level="2" hdr="yes" cont="yes"/>
+			</grps>
+			<timescale show="yes" format="8">
+				<cell font-size="10pt" bold="yes" bkcolor="white" left_p="2.75pt" right_p="2.75pt" top_p="0pt" bottom_p="0pt"/>
+				<line style="solid" width="0pt" color="black"/>
+			</timescale>
+<nd_diff>
+	<boxdiff id="40">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="43">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="44">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="45">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="46">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="134">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="47">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="49">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="50">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="51">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="52">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="53">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="54">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="55">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="56">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="57">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="58">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="59">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="60">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="61">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="62">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="63">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="64">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="67">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="68">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="69">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="70">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="71">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="72">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="73">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="74">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="75">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="89">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="90">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="91">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="94">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="95">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="96">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="97">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="98">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="99">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="100">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="101">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="102">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="103">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="111">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="113">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="112">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="114">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="115">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="116">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="108">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="109">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="110">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="117">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="118">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="119">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="120">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="121">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="122">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="123">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="130">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="124">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="125">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="126">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="127">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="128">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+	<boxdiff id="129">
+		<border shdir="none" shdepth="0pt">
+		</border>
+	</boxdiff>
+</nd_diff>
+
+		</nd_view>
+		<nd_view id="PERT View 2" pagelayout="PERT Page Layout 1" projectsummary="yes">
+			<border id="Critical Task" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="External Task" shdir="bottom_right" shdepth="2.25pt" shcolor="gray"/>
+			<grid id="task" rows="1" cols="1">
+				<row>
+					<cell field="Name" type="wraptext" bold="yes" left_p="2.9pt" right_p="2.9pt" top_p="3.6pt" bottom_p="3.6pt" charlen="20"/>
+				</row>
+			</grid>
+			<group field0="Resource Names" order0="use" nullname0="Unassigned" nullname1="none" nullname2="none">
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+			</group>
+			<timescale>
+				<cell font-size="10pt" bold="yes" bkcolor="white" left_p="2.75pt" right_p="2.75pt" top_p="0pt" bottom_p="0pt"/>
+				<line style="solid" width="0pt" color="black"/>
+			</timescale>
+<nd_diff>
+</nd_diff>
+
+		</nd_view>
+		<nd_view id="PERT View 3" pagelayout="PERT Page Layout 2" projectsummary="yes" field="ID">
+			<border id="Critical Task" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Critical Milestone" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Critical Summary" shdir="bottom_right" shdepth="2.25pt" shcolor="red"/>
+			<border id="Noncritical Task" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="Noncritical Milestone" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="Noncritical Summary" shdir="bottom_right" shdepth="2.25pt" shcolor="blue"/>
+			<border id="External Task" shdir="bottom_right" shdepth="2.25pt" shcolor="gray"/>
+			<grid id="task" rows="4" cols="3">
+				<row stretch="yes">
+					<cell field="ID" bold="yes" orient="bottomtop" bkcolor="yellow" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt" right_s="solid" rowspan="4"/>
+					<cell field="Name" type="wraptext" bold="yes" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Resource Names" type="wraptext" left_p="1.45pt" right_p="1.45pt" top_p="0pt" bottom_p="0pt" left_s="solid" top_s="solid" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Duration" format="5" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid" bottom_s="solid"/>
+					<cell field="% Complete" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid" bottom_s="solid"/>
+				</row>
+				<row>
+					<cell field="Start" format="1" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" right_s="solid" top_s="solid"/>
+					<cell field="Finish" format="1" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+			</grid>
+			<group show="yes" field0="Resource Names" order0="use" nullname0="Unassigned" nullname1="none" nullname2="none">
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+			</group>
+			<grps>
+				<grp id="0" name="WBS" hdr="yes" cont="yes"/>
+				<grp id="1" name="Projeto Controle de Jornada dos Motoristas" level="1" hdr="yes" cont="yes"/>
+				<grp id="2" name="GERENCIAMENTO DO PROJETO" level="2" hdr="yes" closed="yes"/>
+				<grp id="26" name="RECURSOS HUMANOS" level="2" hdr="yes" cont="yes"/>
+				<grp id="27" name="RECURSOS PR&#211;PRIOS" level="3" hdr="yes" cont="yes"/>
+				<grp id="28" name="RECURSOS TERCEIROS" level="3" hdr="yes" cont="yes"/>
+				<grp id="3" name="REQUISITOS DO SISTEMA" level="2" hdr="yes" cont="yes"/>
+				<grp id="9" name="REQUISITOS JUR&#205;DICOS" level="3" hdr="yes" cont="yes"/>
+				<grp id="10" name="REQUISITOS DO CLIENTE" level="3" hdr="yes" cont="yes"/>
+				<grp id="11" name="REQUISITOS FUNCIONAIS" level="3" hdr="yes" cont="yes"/>
+				<grp id="4" name="SISTEMA DE GEST&#195;O" level="2" hdr="yes" cont="yes"/>
+				<grp id="8" name="SOFTWARE MOBILE" level="3" hdr="yes" cont="yes"/>
+				<grp id="66" name="INTERFACE GR&#193;FICA" level="4" hdr="yes" cont="yes"/>
+				<grp id="65" name="PROGRAMA&#199;&#195;O" level="4" hdr="yes" cont="yes"/>
+				<grp id="15" name="SOFTWARE DE GEST&#195;O" level="3" hdr="yes" cont="yes"/>
+				<grp id="88" name="INTERFACE GR&#193;FICA" level="4" hdr="yes" cont="yes"/>
+				<grp id="92" name="PROGRAMA&#199;&#195;O" level="4" hdr="yes" cont="yes"/>
+				<grp id="16" name="BANCO DE DADOS" level="3" hdr="yes" cont="yes"/>
+				<grp id="17" name="HOMOLOGA&#199;&#195;O SMARTPHONES" level="3" hdr="yes" cont="yes"/>
+				<grp id="6" name="IMPLEMENTA&#199;&#195;O DO SISTEMA" level="2" hdr="yes" cont="yes"/>
+				<grp id="21" name="INSTALA&#199;&#195;O" level="3" hdr="yes" cont="yes"/>
+				<grp id="38" name="TESTE PILOTO" level="4" hdr="yes" cont="yes"/>
+				<grp id="39" name="INSTALA&#199;&#195;O FINAL" level="4" hdr="yes" cont="yes"/>
+				<grp id="107" name="TREINAMENTO" level="3" hdr="yes" cont="yes"/>
+				<grp id="22" name="VALIDA&#199;&#195;O" level="3" hdr="yes" cont="yes"/>
+				<grp id="36" name="CONTRATO" level="2" hdr="yes" cont="yes"/>
+				<grp id="24" name="ENCERRAMENTO" level="2" hdr="yes" cont="yes"/>
+			</grps>
+			<timescale show="yes">
+				<cell font-size="10pt" bold="yes" bkcolor="white" left_p="2.75pt" right_p="2.75pt" top_p="0pt" bottom_p="0pt"/>
+				<line style="solid" width="0pt" color="black"/>
+			</timescale>
+<nd_diff>
+</nd_diff>
+
+		</nd_view>
+		<nd_view id="PERT View 4" pagelayout="PERT Page Layout 2" projectsummary="yes" field="Duration">
+			<border id="Critical Task" shcolor="red">
+				<border_edge id="top" bkcolor="red"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="red"/>
+				<border_edge id="bottom" bkcolor="red"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="red"/>
+			</border>
+			<border id="Critical Milestone" shcolor="red">
+				<border_edge id="top" bkcolor="red"/>
+				<border_edge id="left" shape="triangle" depth="5.1pt" bkcolor="red"/>
+				<border_edge id="bottom" bkcolor="red"/>
+				<border_edge id="right" shape="triangle" depth="5.1pt" bkcolor="red"/>
+			</border>
+			<border id="Critical Summary" shcolor="red">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="red"/>
+				<border_edge id="left" bkcolor="red"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="red"/>
+				<border_edge id="right" bkcolor="red"/>
+			</border>
+			<border id="Noncritical Task" shcolor="blue">
+				<border_edge id="top" bkcolor="blue"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="bottom" bkcolor="blue"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="blue"/>
+			</border>
+			<border id="Noncritical Milestone" shcolor="blue">
+				<border_edge id="top" bkcolor="blue"/>
+				<border_edge id="left" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="bottom" bkcolor="blue"/>
+				<border_edge id="right" shape="triangle" depth="5.1pt" bkcolor="blue"/>
+			</border>
+			<border id="Noncritical Summary" shcolor="blue">
+				<border_edge id="top" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="left" bkcolor="blue"/>
+				<border_edge id="bottom" shape="rect" depth="5.1pt" bkcolor="blue"/>
+				<border_edge id="right" bkcolor="blue"/>
+			</border>
+			<border id="External Task">
+				<border_edge id="top" bkcolor="gray"/>
+				<border_edge id="left" shape="rect" depth="5.1pt" bkcolor="gray"/>
+				<border_edge id="bottom" bkcolor="gray"/>
+				<border_edge id="right" shape="rect" depth="5.1pt" bkcolor="gray"/>
+			</border>
+			<grid id="task" rows="4" cols="2" top="1" bottom="2">
+				<row>
+					<cell field="Early Start" format="1" halign="left" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt"/>
+					<cell field="Early Finish" format="1" halign="right" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt"/>
+				</row>
+				<row stretch="yes">
+					<cell field="Name" type="wraptext" bold="yes" left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" bottom_s="solid" colspan="2" charlen="20"/>
+				</row>
+				<row>
+					<cell field="Duration" format="5" label="Dur: " left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" right_s="solid" top_s="solid"/>
+					<cell field="Total Slack" format="5" label="Slack: " left_p="1.45pt" right_p="1.45pt" top_p="0.7pt" bottom_p="0.7pt" left_s="solid" top_s="solid"/>
+				</row>
+				<row>
+					<cell field="Late Start" format="1" halign="left" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt"/>
+					<cell field="Late Finish" format="1" halign="right" left_p="0pt" right_p="0pt" top_p="0pt" bottom_p="0pt"/>
+				</row>
+			</grid>
+			<group field0="Resource Names" order0="use" nullname0="Unassigned" nullname1="none" nullname2="none">
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" font-size="10pt" bold="yes" bkcolor="lightyellow" left_p="3.6pt" right_p="0.7pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+				<cell halign="left" bkcolor="lightyellow" left_p="9pt" top_p="0pt" bottom_p="0pt" top_s="solid" bottom_s="solid"/>
+			</group>
+			<timescale>
+				<cell font-size="10pt" bold="yes" bkcolor="white" left_p="2.75pt" right_p="2.75pt" top_p="0pt" bottom_p="0pt"/>
+				<line style="solid" width="0pt" color="black"/>
+			</timescale>
+<nd_diff>
+</nd_diff>
+
+		</nd_view>
+	</views>
+</project>
